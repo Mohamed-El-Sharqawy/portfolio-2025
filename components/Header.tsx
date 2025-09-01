@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X, Code2 } from "lucide-react";
 import Link from "next/link";
+import { navItems } from "@/data/nav-items";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,13 +17,6 @@ export default function Header() {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const navItems = [
-    { href: "#about", label: "About" },
-    { href: "#skills", label: "Skills" },
-    { href: "#experience", label: "Experience" },
-    { href: "#contact", label: "Contact" },
-  ];
 
   return (
     <header

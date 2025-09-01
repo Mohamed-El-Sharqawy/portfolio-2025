@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-gray-400 flex items-center">
-              Made with <Heart className="h-4 w-4 text-red-400 mx-2" /> using Next.js & Tailwind CSS
+              Made with <Heart className="h-4 w-4 text-red-400 mx-2" /> and lots of coffee ☕
             </p>
             <p className="text-gray-400">
               © 2025 Senior Software Engineer. All rights reserved.

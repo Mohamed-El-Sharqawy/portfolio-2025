@@ -2,6 +2,7 @@
 
 import { EMAIL, GITHUB, LINKED_IN } from "@/data/personal-info";
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -72,11 +73,11 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+      <Link href={"#about"} className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
         <div className="w-6 h-10 border-2 border-gray-600 rounded-full flex justify-center">
           <div className="w-1 h-3 bg-blue-400 rounded-full mt-2 animate-pulse" />
         </div>
-      </div>
+      </Link>
     </section>
   );
 }
