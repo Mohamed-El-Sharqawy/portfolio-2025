@@ -22,7 +22,7 @@ export default function Hero() {
               <span className="block text-gradient">Engineer</span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Full-Stack Developer & Project Manager specializing in React.js,
+              Front-End Engineer & Project Manager specializing in React.js,
               Next.js, and modern backend technologies. Leading innovative
               projects across multiple countries and delivering exceptional
               digital solutions.

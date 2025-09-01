@@ -6,7 +6,8 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Senior Software Engineer | Full-Stack Developer & Project Manager",
+  title:
+    "Hello I'm Moe, a Senior Software Engineer with Expertise in Front-End Development",
   description:
     "Senior Software Engineer with expertise in React.js, Next.js, Node.js, and project management. Leading innovative projects across UAE, Saudi Arabia, USA, South Africa, Iraq, Turkey, and Egypt.",
 };
@@ -17,7 +18,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="en">
       <body className={`${inter.className} bg-black text-white antialiased`}>
         {children}
         <Toaster duration={3000} />
