@@ -2,8 +2,8 @@
 
 import { useState, useEffect } from "react";
 import { Menu, X, Code2 } from "lucide-react";
-import Link from "next/link";
 import { navItems } from "@/data/nav-items";
+import Link from "next/link";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -54,9 +54,9 @@ export default function Header() {
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
             {isMenuOpen ? (
-              <X className="h-6 w-6" />
+              <X aria-label="Close Menu" className="h-6 w-6" />
             ) : (
-              <Menu className="h-6 w-6" />
+              <Menu aria-label="Open Menu" className="h-6 w-6" />
             )}
           </button>
         </div>

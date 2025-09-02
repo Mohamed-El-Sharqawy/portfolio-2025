@@ -9,10 +9,10 @@ export default function Contact() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gradient mb-6">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Ready to lead your next project or contribute to your team's success
+            Ready to lead your next project or contribute to your team&apos;s success
           </p>
           <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
         </div>
@@ -71,6 +71,8 @@ export default function Contact() {
                     href={GITHUB}
                     target="_blank"
                     rel="noopener noreferrer"
+                    title="GitHub Profile"
+                    aria-label="GitHub Profile"
                     className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-gray-700 transition-all duration-300"
                   >
                     <Github className="h-5 w-5" />
@@ -79,6 +81,8 @@ export default function Contact() {
                     href={LINKED_IN}
                     target="_blank"
                     rel="noopener noreferrer"
+                    title="LinkedIn Profile"
+                    aria-label="LinkedIn Profile"
                     className="w-12 h-12 bg-gray-800 rounded-full flex items-center justify-center text-gray-400 hover:text-blue-400 hover:bg-gray-700 transition-all duration-300"
                   >
                     <Linkedin className="h-5 w-5" />

@@ -65,6 +65,7 @@ const ContactForm = () => {
             id="email"
             name="email"
             value={formData.email}
+            autoComplete="on"
             onChange={handleChange}
             required
             className="w-full px-4 py-3 bg-gray-800/50 border border-gray-600 rounded-lg text-gray-100 placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
