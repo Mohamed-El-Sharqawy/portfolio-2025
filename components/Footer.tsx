@@ -8,10 +8,10 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Code2 className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold text-gradient">Portfolio</span>
+              <span className="text-xl font-bold text-gradient">Moe.</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Senior Software Engineer passionate about creating exceptional digital experiences 
+              Senior Software Engineer passionate about creating exceptional digital experiences
               and leading innovative projects across the globe.
             </p>
           </div>
@@ -21,10 +21,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>Frontend Development</li>
               <li>Backend Architecture</li>
-              <li>Project Management</li>
               <li>Team Leadership</li>
-              <li>Cloud Solutions</li>
-              <li>DevOps & CI/CD</li>
             </ul>
           </div>
 
@@ -34,6 +31,7 @@ export default function Footer() {
               <li>United Arab Emirates</li>
               <li>Saudi Arabia</li>
               <li>United States</li>
+              <li>Netherlands</li>
               <li>South Africa</li>
               <li>Iraq</li>
               <li>Turkey</li>
@@ -48,7 +46,7 @@ export default function Footer() {
               Made with <Heart className="h-4 w-4 text-red-400 mx-2" /> and lots of coffee ☕
             </p>
             <p className="text-gray-400">
-              © 2025 Senior Software Engineer. All rights reserved.
+              © {new Date().getFullYear()} Moe. All rights reserved.
             </p>
           </div>
         </div>

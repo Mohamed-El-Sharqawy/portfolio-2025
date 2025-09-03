@@ -14,19 +14,19 @@ export default function About() {
             </h3>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                With over 3 years of experience in software engineering, I've evolved from a passionate developer 
-                into a senior technical leader who drives innovation across the full stack. My expertise spans 
+                With over 3 years of experience in software engineering, I&apos;ve evolved from a passionate developer 
+                into a senior who drives innovation across the full stack. My expertise spans 
                 modern frontend frameworks like React.js and Next.js, coupled with robust backend technologies 
                 including Node.js, Nest.js, and cloud-native solutions.
               </p>
               <p>
-                As a technical leader, I've successfully guided cross-functional teams in delivering mission-critical 
+                As a senior, I&apos;ve successfully led cross-functional teams in delivering mission-critical 
                 applications for government entities across the Middle East, Africa, and North America. My dual expertise 
                 in hands-on development and strategic project management enables me to bridge the gap between technical 
                 excellence and business objectives.
               </p>
               <p>
-                I'm passionate about architecting scalable solutions, mentoring development teams, and staying at the 
+                I&apos;m passionate about architecting scalable solutions, mentoring development teams, and staying at the 
                 forefront of emerging technologies. Whether leading a frontend engineering team or managing complex 
                 government projects, I bring a commitment to quality, innovation, and delivery excellence.
               </p>
@@ -39,11 +39,11 @@ export default function About() {
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0" />
-                  Led 15+ successful projects across 7 countries
+                  Led 12+ successful projects across 7 countries
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 shrink-0" />
-                  Managed teams of 5-20 developers and designers
+                  Managed teams of 5-15 developers and designers
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0" />
@@ -62,7 +62,7 @@ export default function About() {
                 <div className="text-gray-300 text-sm">Years Experience</div>
               </div>
               <div className="card-gradient rounded-xl p-6 text-center">
-                <div className="text-2xl font-bold text-purple-400 mb-2">50+</div>
+                <div className="text-2xl font-bold text-purple-400 mb-2">30+</div>
                 <div className="text-gray-300 text-sm">Projects Delivered</div>
               </div>
             </div>

@@ -42,7 +42,7 @@ export const experiences = [
     ],
   },
   {
-    role: "Project Manager Professional",
+    role: "Senior Frontend Engineer",
     company: "Global Dynamics",
     location: "Iraq",
     period: "2025 - Present",
@@ -56,7 +56,7 @@ export const experiences = [
     ],
   },
   {
-    role: "Project Manager Professional",
+    role: "Senior Frontend Engineer",
     company: "Global Dynamics",
     location: "Iraq",
     period: "2025",
@@ -70,7 +70,7 @@ export const experiences = [
     ],
   },
   {
-    role: "Project Manager Professional",
+    role: "Senior Frontend Engineer",
     company: "Global Dynamics",
     location: "Iraq",
     period: "2025",
@@ -84,7 +84,7 @@ export const experiences = [
     ],
   },
   {
-    role: "Project Manager Professional",
+    role: "Senior Frontend Engineer",
     company: "Global Dynamics",
     location: "Iraq",
     period: "2025",
