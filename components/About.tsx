@@ -4,7 +4,7 @@ export default function About() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gradient mb-6">About Me</h2>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full" />
+          <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full" />
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -38,19 +38,19 @@ export default function About() {
               <h4 className="text-xl font-semibold text-gray-100 mb-4">Key Achievements</h4>
               <ul className="space-y-3 text-gray-300">
                 <li className="flex items-start">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0" />
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0" />
                   Led 15+ successful projects across 7 countries
                 </li>
                 <li className="flex items-start">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0" />
+                  <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 shrink-0" />
                   Managed teams of 5-20 developers and designers
                 </li>
                 <li className="flex items-start">
-                  <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0" />
+                  <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0" />
                   Delivered government-scale applications serving millions
                 </li>
                 <li className="flex items-start">
-                  <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 flex-shrink-0" />
+                  <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 shrink-0" />
                   Expert in modern DevOps and cloud infrastructure
                 </li>
               </ul>

@@ -17,7 +17,7 @@ export default function Skills() {
             A comprehensive skill set spanning full-stack development, cloud
             architecture, and project management
           </p>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
+          <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
         </div>
 
         {/* Category Tabs */}
@@ -30,7 +30,7 @@ export default function Skills() {
                 onClick={() => setActiveCategory(key)}
                 className={`flex items-center space-x-2 px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                   activeCategory === key
-                    ? "bg-gradient-to-r from-blue-600 to-purple-600 text-white glow-effect"
+                    ? "bg-linear-to-r from-blue-600 to-purple-600 text-white glow-effect"
                     : "bg-gray-800/50 text-gray-300 hover:bg-gray-700/50 border border-gray-700"
                 }`}
               >
@@ -64,7 +64,7 @@ export default function Skills() {
                 </div>
                 <div className="w-full bg-gray-700 rounded-full h-2">
                   <div
-                    className="bg-gradient-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-1000 ease-out"
+                    className="bg-linear-to-r from-blue-500 to-purple-500 h-2 rounded-full transition-all duration-1000 ease-out"
                     style={{ width: `${skill.level}%` }}
                   />
                 </div>

@@ -115,7 +115,7 @@ const ContactForm = () => {
       <button
         type="submit"
         disabled={isLoading}
-        className="w-full inline-flex items-center justify-center px-8 py-4 bg-gradient-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 animate-glow disabled:opacity-30"
+        className="w-full inline-flex items-center justify-center px-8 py-4 bg-linear-to-r from-blue-600 to-purple-600 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 transform hover:scale-105 animate-glow disabled:opacity-30"
         style={{
           cursor: isLoading ? "not-allowed" : "pointer",
         }}

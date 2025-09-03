@@ -14,7 +14,7 @@ export default function Contact() {
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Ready to lead your next project or contribute to your team&apos;s success
           </p>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
+          <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12">

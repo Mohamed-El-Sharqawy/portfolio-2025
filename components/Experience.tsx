@@ -12,18 +12,18 @@ export default function Experience() {
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             Leading innovative projects and technical teams across multiple continents
           </p>
-          <div className="w-20 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
+          <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
         </div>
 
         <div className="relative">
           {/* Timeline Line */}
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-to-b from-blue-500 to-purple-500 hidden md:block" />
+          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-linear-to-b from-blue-500 to-purple-500 hidden md:block" />
 
           <div className="space-y-12">
             {experiences.map((exp, index) => (
               <div key={index} className="relative">
                 {/* Timeline Dot */}
-                <div className="absolute left-6 w-4 h-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-full hidden md:block glow-effect" />
+                <div className="absolute left-6 w-4 h-4 bg-linear-to-r from-blue-500 to-purple-500 rounded-full hidden md:block glow-effect" />
                 
                 <div className="md:ml-16">
                   <div className="card-gradient rounded-2xl p-8 hover:shadow-2xl transition-all duration-300 group">
@@ -68,7 +68,7 @@ export default function Experience() {
                       <ul className="space-y-2">
                         {exp.achievements.map((achievement, i) => (
                           <li key={i} className="flex items-start text-gray-300">
-                            <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 flex-shrink-0" />
+                            <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0" />
                             {achievement}
                           </li>
                         ))}
