@@ -21,9 +21,9 @@ export default function Contact() {
           {/* Contact Information */}
           <div className="space-y-8">
             <div className="card-gradient rounded-2xl p-8">
-              <h3 className="text-2xl font-bold text-gray-100 mb-6">
+              <div className="text-2xl font-bold text-gray-100 mb-6">
                 Get In Touch
-              </h3>
+              </div>
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="w-12 h-12 bg-blue-600/20 rounded-full flex items-center justify-center">
@@ -63,9 +63,9 @@ export default function Contact() {
               </div>
 
               <div className="mt-8 pt-8 border-t border-gray-700">
-                <h4 className="text-lg font-semibold text-gray-200 mb-4">
+                <p className="text-lg font-semibold text-gray-200 mb-4">
                   Connect with me
-                </h4>
+                </p>
                 <div className="flex space-x-4">
                   <a
                     href={GITHUB}

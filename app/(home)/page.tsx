@@ -9,10 +9,9 @@ import Footer from '@/components/Footer';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title:
-    "Hello I'm Moe, a Senior Software Engineer with Expertise in Front-End Development",
+  title: "Moe | Senior Software Engineer | Front-End Development Expert",
   description:
-    "Senior Software Engineer with expertise in React.js, Next.js, Node.js, and project management. Leading innovative projects across UAE, Saudi Arabia, USA, South Africa, Iraq, Turkey, and Egypt.",
+    "Senior Software Engineer specializing in React.js, Next.js, and Node.js. Leading innovative projects across UAE, Saudi Arabia, and globally.",
 };
 
 export default function Home() {

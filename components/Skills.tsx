@@ -14,8 +14,9 @@ export default function Skills() {
             Technical Expertise
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A comprehensive skill set spanning full-stack development, cloud
-            architecture, and project management
+            A comprehensive skill set spanning <a href="#experience" className="text-blue-400 hover:underline">full-stack development</a>, cloud
+            architecture, and <a href="#experience" className="text-blue-400 hover:underline">project management</a>. 
+            <a href="#about" className="text-blue-400 hover:underline">Learn more</a> about my background.
           </p>
           <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
         </div>
@@ -47,7 +48,7 @@ export default function Skills() {
             {
               skillCategories[activeCategory as keyof typeof skillCategories]
                 .title
-            }
+            } Skills & Technologies
           </h3>
           <div className="grid md:grid-cols-2 gap-6">
             {skillCategories[

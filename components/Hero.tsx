@@ -22,9 +22,9 @@ export default function Hero() {
               <span className="block text-gradient">Engineer</span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Front-End Engineer specializing in React.js,
-              Next.js, Sevelte, Astro and modern backend technologies. Leading innovative
-              projects across multiple countries and delivering exceptional
+              I&apos;m Moe, a Front-End Development Expert specializing in React.js,
+              Next.js, Svelte, Astro and modern backend technologies. As a Senior Software Engineer, I lead innovative
+              projects across multiple countries and deliver exceptional
               digital solutions.
             </p>
           </div>

@@ -16,19 +16,20 @@ export default function About() {
               <p>
                 With over 3 years of experience in software engineering, I&apos;ve evolved from a passionate developer 
                 into a senior who drives innovation across the full stack. My expertise spans 
-                modern frontend frameworks like React.js and Next.js, coupled with robust backend technologies 
-                including Node.js, Nest.js, and cloud-native solutions.
+                modern frontend frameworks like <a href="#skills" className="text-blue-400 hover:underline">React.js and Next.js</a>, coupled with robust backend technologies 
+                including <a href="#skills" className="text-blue-400 hover:underline">Node.js, Nest.js</a>, and cloud-native solutions.
               </p>
               <p>
-                As a senior, I&apos;ve successfully led cross-functional teams in delivering mission-critical 
+                As a senior, I&apos;ve successfully <a href="#experience" className="text-blue-400 hover:underline">led cross-functional teams</a> in delivering mission-critical 
                 applications for government entities across the Middle East, Africa, and North America. My dual expertise 
-                in hands-on development and strategic project management enables me to bridge the gap between technical 
+                in hands-on development and <a href="#experience" className="text-blue-400 hover:underline">strategic project management</a> enables me to bridge the gap between technical 
                 excellence and business objectives.
               </p>
               <p>
                 I&apos;m passionate about architecting scalable solutions, mentoring development teams, and staying at the 
                 forefront of emerging technologies. Whether leading a frontend engineering team or managing complex 
-                government projects, I bring a commitment to quality, innovation, and delivery excellence.
+                government projects, I bring a commitment to quality, innovation, and delivery excellence. 
+                <a href="#contact" className="text-blue-400 hover:underline">Let&apos;s connect</a> to discuss how I can contribute to your next project.
               </p>
             </div>
           </div>

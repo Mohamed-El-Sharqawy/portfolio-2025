@@ -10,7 +10,8 @@ export default function Experience() {
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gradient mb-6">Professional Experience</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Leading innovative projects and technical teams across multiple continents
+            Leading innovative projects and technical teams across multiple continents. 
+            <a href="#contact" className="text-blue-400 hover:underline">Reach out</a> to discuss collaboration opportunities.
           </p>
           <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
         </div>
@@ -61,10 +62,10 @@ export default function Experience() {
                     </p>
 
                     <div className="space-y-3">
-                      <h4 className="font-semibold text-gray-200 flex items-center">
+                      <span className="font-semibold text-gray-200 flex items-center">
                         <Trophy className="h-4 w-4 mr-2 text-yellow-400" />
                         Key Achievements
-                      </h4>
+                      </span>
                       <ul className="space-y-2">
                         {exp.achievements.map((achievement, i) => (
                           <li key={i} className="flex items-start text-gray-300">
