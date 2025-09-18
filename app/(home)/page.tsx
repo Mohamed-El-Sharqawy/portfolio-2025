@@ -9,9 +9,16 @@ import Footer from '@/components/Footer';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Moe | Senior Software Engineer | Front-End Development Expert",
+  title: "Moe - Senior Software Engineer Portfolio | React & Next.js Expert",
   description:
-    "Senior Software Engineer specializing in React.js, Next.js, and Node.js. Leading innovative projects across UAE, Saudi Arabia, and globally.",
+    "Senior Software Engineer portfolio showcasing expertise in React.js, Next.js, and Node.js. Leading innovative projects across UAE, Saudi Arabia, and globally.",
+  keywords: "Senior Software Engineer, React.js, Next.js, Node.js, Frontend Development, Full Stack Developer, Portfolio, UAE, Saudi Arabia",
+  openGraph: {
+    title: "Moe - Senior Software Engineer Portfolio",
+    description: "Senior Software Engineer specializing in React.js, Next.js, and modern web technologies. Leading innovative projects globally.",
+    type: "website",
+    url: "https://moe-portfolio.com",
+  },
 };
 
 export default function Home() {

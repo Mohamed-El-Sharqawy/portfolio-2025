@@ -12,7 +12,7 @@ export default function Contact() {
             Let&apos;s Work Together
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Ready to lead your next project or contribute to your team&apos;s success
+            Ready to lead your next project as a <strong className="text-gray-100">Senior Software Engineer</strong> or contribute to your team&apos;s success
           </p>
           <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
         </div>

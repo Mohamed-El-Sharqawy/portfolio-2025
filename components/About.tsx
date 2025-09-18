@@ -10,18 +10,18 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-gray-100">
-              Passionate About Creating Digital Excellence
+              Senior Software Engineer Passionate About Creating Digital Excellence
             </h3>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                With over 3 years of experience in software engineering, I&apos;ve evolved from a passionate developer 
-                into a senior who drives innovation across the full stack. My expertise spans 
+                With over 3 years of experience as a <strong className="text-gray-100">Senior Software Engineer</strong>, I&apos;ve evolved from a passionate developer 
+                into a senior engineer who drives innovation across the full stack. My expertise as a Senior Software Engineer spans 
                 modern frontend frameworks like <a href="#skills" className="text-blue-400 hover:underline">React.js and Next.js</a>, coupled with robust backend technologies 
                 including <a href="#skills" className="text-blue-400 hover:underline">Node.js, Nest.js</a>, and cloud-native solutions.
               </p>
               <p>
-                As a senior, I&apos;ve successfully <a href="#experience" className="text-blue-400 hover:underline">led cross-functional teams</a> in delivering mission-critical 
-                applications for government entities across the Middle East, Africa, and North America. My dual expertise 
+                As a <strong className="text-gray-100">Senior Software Engineer</strong>, I&apos;ve successfully <a href="#experience" className="text-blue-400 hover:underline">led cross-functional teams</a> in delivering mission-critical 
+                applications for government entities across the Middle East, Africa, and North America. My dual expertise as a Senior Software Engineer 
                 in hands-on development and <a href="#experience" className="text-blue-400 hover:underline">strategic project management</a> enables me to bridge the gap between technical 
                 excellence and business objectives.
               </p>
