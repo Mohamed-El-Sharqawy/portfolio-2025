@@ -5,6 +5,7 @@ import { Inter } from "next/font/google";
 import StructuredData from "@/components/StructuredData";
 import LayoutHead from "./layout-head";
 import ServiceWorkerRegister from "./sw-register";
+import PwaInstallPrompt from "@/components/PwaInstallPrompt";
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -57,6 +58,7 @@ export default function RootLayout({
         {children}
         <Toaster duration={3000} />
         <ServiceWorkerRegister />
+        <PwaInstallPrompt />
       </body>
     </html>
   );

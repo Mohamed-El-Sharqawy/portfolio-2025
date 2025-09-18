@@ -8,6 +8,10 @@ export default function LayoutHead() {
       {/* DNS prefetch for external resources */}
       <link rel="dns-prefetch" href="https://devsharqawy.com" />
       
+      {/* PWA manifest */}
+      <link rel="manifest" href="/manifest.webmanifest" />
+      <link rel="apple-touch-icon" href="/apple-icon.png" />
+      
       {/* Meta tags for browser compatibility */}
       <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
@@ -15,7 +19,7 @@ export default function LayoutHead() {
       <meta name="color-scheme" content="dark" />
       
       {/* Fix for iOS Safari viewport issues */}
-      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
       
       {/* Prevent iOS detection of phone numbers/emails */}
