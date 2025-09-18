@@ -1,30 +1,85 @@
 // Service Worker for Portfolio Site
-const CACHE_NAME = 'portfolio-cache-v2'; // Increment version when making changes
+const CACHE_NAME = 'portfolio-cache-v3'; // Increment version when making changes
 const APP_SHELL = 'app-shell-v1';
 
 // Assets to cache immediately on install
 const STATIC_ASSETS = [
   '/',
   '/manifest.webmanifest',
-  '/android-chrome-192x192.png',
-  '/android-chrome-512x512.png',
-  '/favicon.ico',
-  '/favicon-16x16.png',
-  '/favicon-32x32.png',
-  '/apple-icon.png'
+  '/favicon.ico'
+  // Only include assets that actually exist
+  // Removed potentially missing assets:
+  // '/android-chrome-192x192.png',
+  // '/android-chrome-512x512.png',
+  // '/favicon-16x16.png',
+  // '/favicon-32x32.png',
+  // '/apple-icon.png'
 ];
+
+// Helper function to discover available assets
+async function discoverAssets() {
+  // Start with the core assets we know exist
+  const assets = [...STATIC_ASSETS];
+  
+  // Try to discover icon assets that might exist
+  const possibleIcons = [
+    '/android-chrome-192x192.png',
+    '/android-chrome-512x512.png',
+    '/favicon-16x16.png',
+    '/favicon-32x32.png',
+    '/apple-icon.png'
+  ];
+  
+  // Check each possible icon
+  for (const icon of possibleIcons) {
+    try {
+      const response = await fetch(icon, { method: 'HEAD', cache: 'no-store' });
+      if (response.ok) {
+        assets.push(icon);
+        console.log(`[ServiceWorker] Discovered asset: ${icon}`);
+      }
+    } catch (error) {
+      // Ignore errors, just don't add the asset
+    }
+  }
+  
+  return assets;
+}
 
 // Install event - cache static assets
 self.addEventListener('install', event => {
   console.log('[ServiceWorker] Install');
   self.skipWaiting(); // Activate immediately
   
+  // Use individual cache.put operations instead of cache.addAll
+  // This allows us to continue even if some resources fail to cache
   event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then(cache => {
-        console.log('[ServiceWorker] Caching app shell and static assets');
-        return cache.addAll(STATIC_ASSETS);
-      })
+    discoverAssets().then(assets => {
+      return caches.open(CACHE_NAME)
+        .then(cache => {
+          console.log('[ServiceWorker] Caching app shell and static assets');
+          
+          // Cache each asset individually with error handling
+          const cachePromises = assets.map(url => {
+            // Attempt to fetch and cache each resource
+            return fetch(url, { cache: 'no-store' })
+              .then(response => {
+                if (response.ok) {
+                  return cache.put(url, response);
+                } else {
+                  console.warn(`[ServiceWorker] Failed to cache: ${url}, status: ${response.status}`);
+                  return Promise.resolve(); // Continue despite error
+                }
+              })
+              .catch(error => {
+                console.warn(`[ServiceWorker] Failed to fetch: ${url}`, error);
+                return Promise.resolve(); // Continue despite error
+              });
+          });
+          
+          return Promise.all(cachePromises);
+        });
+    })
   );
 });
 
@@ -170,7 +225,29 @@ self.addEventListener('periodicsync', event => {
 
 // Function to update cache in background
 async function updateCache() {
-  const cache = await caches.open(CACHE_NAME);
-  await cache.addAll(STATIC_ASSETS);
-  console.log('[ServiceWorker] Background sync complete');
+  try {
+    // Discover available assets
+    const assets = await discoverAssets();
+    const cache = await caches.open(CACHE_NAME);
+    
+    // Cache each asset individually with error handling
+    const updatePromises = assets.map(async (url) => {
+      try {
+        const response = await fetch(url, { cache: 'no-store' });
+        if (response.ok) {
+          await cache.put(url, response);
+          console.log(`[ServiceWorker] Updated cache for: ${url}`);
+        } else {
+          console.warn(`[ServiceWorker] Failed to update cache: ${url}, status: ${response.status}`);
+        }
+      } catch (error) {
+        console.warn(`[ServiceWorker] Failed to fetch for update: ${url}`, error);
+      }
+    });
+    
+    await Promise.all(updatePromises);
+    console.log('[ServiceWorker] Background sync complete');
+  } catch (error) {
+    console.error('[ServiceWorker] Cache update failed:', error);
+  }
 }
