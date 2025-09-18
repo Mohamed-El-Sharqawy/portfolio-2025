@@ -1,4 +1,4 @@
-import { Code2, Heart, Share2, Twitter, Facebook, Linkedin } from 'lucide-react';
+import { Code2, Heart } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -42,45 +42,10 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
-            <div className="flex flex-col space-y-4">
-              <p className="text-gray-400 flex items-center">
-                Made with <Heart className="h-4 w-4 text-red-400 mx-2" /> and lots of coffee ☕
-              </p>
-              <div className="flex items-center space-x-2">
-                <span className="text-gray-400 flex items-center">
-                  <Share2 className="h-4 w-4 mr-2" /> Share:
-                </span>
-                <div className="flex space-x-3">
-                  <a 
-                    href="https://twitter.com/intent/tweet?url=https://devsharqawy.com&text=Check out Moe's portfolio - Senior Software Engineer specializing in Front-End Development" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-blue-400 transition-colors"
-                    aria-label="Share on Twitter"
-                  >
-                    <Twitter className="h-5 w-5" />
-                  </a>
-                  <a 
-                    href="https://www.facebook.com/sharer/sharer.php?u=https://devsharqawy.com" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-blue-600 transition-colors"
-                    aria-label="Share on Facebook"
-                  >
-                    <Facebook className="h-5 w-5" />
-                  </a>
-                  <a 
-                    href="https://www.linkedin.com/shareArticle?mini=true&url=https://devsharqawy.com&title=Moe - Senior Software Engineer&summary=Check out Moe's portfolio - Senior Software Engineer specializing in Front-End Development" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className="text-gray-400 hover:text-blue-700 transition-colors"
-                    aria-label="Share on LinkedIn"
-                  >
-                    <Linkedin className="h-5 w-5" />
-                  </a>
-                </div>
-              </div>
-            </div>
+            <p className="text-gray-400 flex items-center">
+              Made with <Heart className="h-4 w-4 text-red-400 mx-2" /> and lots of coffee ☕
+            </p>
+
             <p className="text-gray-400">
               © {new Date().getFullYear()} Moe. All rights reserved.
             </p>
