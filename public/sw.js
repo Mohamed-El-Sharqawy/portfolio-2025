@@ -6,14 +6,12 @@ const APP_SHELL = 'app-shell-v1';
 const STATIC_ASSETS = [
   '/',
   '/manifest.webmanifest',
-  '/favicon.ico'
-  // Only include assets that actually exist
-  // Removed potentially missing assets:
-  // '/android-chrome-192x192.png',
-  // '/android-chrome-512x512.png',
-  // '/favicon-16x16.png',
-  // '/favicon-32x32.png',
-  // '/apple-icon.png'
+  '/favicon.ico',
+  '/android-chrome-192x192.png',
+  '/android-chrome-512x512.png',
+  '/favicon-16x16.png',
+  '/favicon-32x32.png',
+  '/apple-icon.png'
 ];
 
 // Helper function to discover available assets
