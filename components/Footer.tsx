@@ -52,7 +52,7 @@ export default function Footer() {
                 </span>
                 <div className="flex space-x-3">
                   <a 
-                    href="https://twitter.com/intent/tweet?url=https://moe-portfolio.com&text=Check out Moe's portfolio - Senior Software Engineer specializing in Front-End Development" 
+                    href="https://twitter.com/intent/tweet?url=https://devsharqawy.com&text=Check out Moe's portfolio - Senior Software Engineer specializing in Front-End Development" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-400 transition-colors"
@@ -61,7 +61,7 @@ export default function Footer() {
                     <Twitter className="h-5 w-5" />
                   </a>
                   <a 
-                    href="https://www.facebook.com/sharer/sharer.php?u=https://moe-portfolio.com" 
+                    href="https://www.facebook.com/sharer/sharer.php?u=https://devsharqawy.com" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-600 transition-colors"
@@ -70,7 +70,7 @@ export default function Footer() {
                     <Facebook className="h-5 w-5" />
                   </a>
                   <a 
-                    href="https://www.linkedin.com/shareArticle?mini=true&url=https://moe-portfolio.com&title=Moe - Senior Software Engineer&summary=Check out Moe's portfolio - Senior Software Engineer specializing in Front-End Development" 
+                    href="https://www.linkedin.com/shareArticle?mini=true&url=https://devsharqawy.com&title=Moe - Senior Software Engineer&summary=Check out Moe's portfolio - Senior Software Engineer specializing in Front-End Development" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="text-gray-400 hover:text-blue-700 transition-colors"

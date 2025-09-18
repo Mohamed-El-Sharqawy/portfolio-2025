@@ -1,0 +1,11 @@
+# Modern browsers only (reduces legacy JavaScript)
+>= 0.5%
+last 2 major versions
+not dead
+not op_mini all
+not ie <= 11
+not chrome < 60
+not firefox < 60
+not safari < 12
+not ios_saf < 12
+not android < 8

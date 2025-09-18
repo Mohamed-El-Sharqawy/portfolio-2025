@@ -1,0 +1,9 @@
+# Ignore service worker file
+public/sw.js
+
+# Other common ignores
+node_modules/
+.next/
+out/
+build/
+dist/
