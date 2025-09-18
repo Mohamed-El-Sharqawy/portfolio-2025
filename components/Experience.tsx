@@ -1,7 +1,7 @@
 'use client';
 
 import { experiences } from '@/data/experience';
-import { Calendar, MapPin, Users, Trophy } from 'lucide-react';
+import { Calendar, MapPin, Trophy } from 'lucide-react';
 
 export default function Experience() {
   return (

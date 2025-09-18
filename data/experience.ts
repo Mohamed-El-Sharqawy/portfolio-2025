@@ -1,12 +1,12 @@
 export const experiences = [
   {
-    role: "Frontend Team Lead",
+    role: "Frontend Developer",
     company: "Grwan Group",
     location: "United Arab Emirates",
     period: "2023 - Present",
     type: "Web Development",
     description:
-      "Leading the frontend team on a large-scale facility management project serving clients across Egypt, UAE, and Saudi Arabia. Collaborated closely with backend, UI/UX, marketing, and executive teams to ensure project alignment and successful delivery.",
+      "Developing a large-scale facility management project serving clients across Egypt, UAE, and Saudi Arabia. Collaborated closely with backend, UI/UX, marketing, and executive teams to ensure project alignment and successful delivery.",
     achievements: [
       "Successfully launched and maintained a multi-country facility management platform.",
       "Managed a cross-functional team, bridging communication between technical and non-technical stakeholders.",
@@ -14,21 +14,21 @@ export const experiences = [
     ],
   },
   {
-    role: "Frontend Team Lead",
+    role: "Frontend Developer",
     company: "Grwan Group",
     location: "United Arab Emirates",
     period: "2025 - Present",
     type: "Web Development",
     description:
-      "Leading the frontend team for a Software as a Service (SaaS) Warehouse Management System (WMS) used in the UAE, Saudi Arabia, and Turkey. Responsible for ongoing development and maintenance of the platform.",
+      "Developing a Software as a Service (SaaS) Warehouse Management System (WMS) used in the UAE, Saudi Arabia, and Turkey. Responsible for ongoing development and maintenance of the platform.",
     achievements: [
-      "Led the development of a multi-region SaaS product.",
+      "Developed a multi-region SaaS product.",
       "Engineered key frontend components for a complex WMS, ensuring scalability and user experience.",
       "Managed ongoing maintenance and new feature development since launch.",
     ],
   },
     {
-    role: "Frontend Engineer",
+    role: "Frontend Developer",
     company: "Mark and Success",
     location: "USA",
     period: "March 2024 - July 2024",
@@ -42,7 +42,7 @@ export const experiences = [
     ],
   },
   {
-    role: "Senior Frontend Engineer",
+    role: "Frontend Developer",
     company: "Global Dynamics",
     location: "Iraq",
     period: "2025 - Present",
@@ -56,7 +56,7 @@ export const experiences = [
     ],
   },
   {
-    role: "Senior Frontend Engineer",
+    role: "Frontend Developer",
     company: "Global Dynamics",
     location: "Iraq",
     period: "2025",
@@ -70,7 +70,7 @@ export const experiences = [
     ],
   },
   {
-    role: "Senior Frontend Engineer",
+    role: "Frontend Developer",
     company: "Global Dynamics",
     location: "Iraq",
     period: "2025",
@@ -84,7 +84,7 @@ export const experiences = [
     ],
   },
   {
-    role: "Senior Frontend Engineer",
+    role: "Frontend Developer",
     company: "Global Dynamics",
     location: "Iraq",
     period: "2025",
