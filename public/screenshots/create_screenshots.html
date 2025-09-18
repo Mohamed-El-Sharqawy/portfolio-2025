@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Screenshot Generator</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .screenshot {
+            background: linear-gradient(to bottom right, #000000, #1a1a1a);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .desktop {
+            width: 1280px;
+            height: 800px;
+        }
+        
+        .mobile {
+            width: 390px;
+            height: 844px;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(to right, #3b82f6, #2563eb);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+        
+        .logo {
+            font-size: 5rem;
+            margin-bottom: 2rem;
+            color: #3b82f6;
+        }
+        
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 2rem;
+            max-width: 800px;
+        }
+        
+        .skill {
+            background-color: rgba(59, 130, 246, 0.2);
+            border: 1px solid #3b82f6;
+            border-radius: 20px;
+            padding: 8px 16px;
+            font-size: 0.9rem;
+        }
+        
+        .mobile .skills {
+            max-width: 300px;
+        }
+        
+        .mobile .skill {
+            padding: 6px 12px;
+            font-size: 0.8rem;
+        }
+        
+        .mobile h1 {
+            font-size: 2rem;
+        }
+        
+        .mobile h2 {
+            font-size: 1rem;
+        }
+        
+        .mobile .logo {
+            font-size: 3rem;
+        }
+        
+        .instructions {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="instructions">
+        <h2>Instructions:</h2>
+        <p>Right-click on each screenshot below and select "Save image as..." to save them as PNG files.</p>
+        <p>Save the desktop version as "desktop.png" and the mobile version as "mobile.png" in the screenshots folder.</p>
+    </div>
+    
+    <!-- Desktop Screenshot -->
+    <div class="screenshot desktop">
+        <div class="logo">👨‍💻</div>
+        <h1>Moe - Senior Software Engineer</h1>
+        <h2>Frontend Development Expert</h2>
+        <p>Specializing in React.js, Next.js, and modern web technologies</p>
+        <div class="skills">
+            <div class="skill">React.js</div>
+            <div class="skill">Next.js</div>
+            <div class="skill">TypeScript</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">Tailwind CSS</div>
+            <div class="skill">UI/UX Design</div>
+            <div class="skill">Performance Optimization</div>
+            <div class="skill">PWA Development</div>
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <p>👆 Save as "desktop.png" (1280x800)</p>
+    </div>
+    
+    <!-- Mobile Screenshot -->
+    <div class="screenshot mobile">
+        <div class="logo">👨‍💻</div>
+        <h1>Moe</h1>
+        <h2>Senior Software Engineer</h2>
+        <p>Frontend Development Expert</p>
+        <div class="skills">
+            <div class="skill">React.js</div>
+            <div class="skill">Next.js</div>
+            <div class="skill">TypeScript</div>
+            <div class="skill">Node.js</div>
+        </div>
+    </div>
+    
+    <div class="instructions">
+        <p>👆 Save as "mobile.png" (390x844)</p>
+    </div>
+    
+    <script>
+        // You can use this script to automatically generate and download the screenshots
+        // Requires html2canvas library which is not included here
+    </script>
+</body>
+</html>

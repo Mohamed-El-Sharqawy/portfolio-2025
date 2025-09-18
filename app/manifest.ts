@@ -14,13 +14,28 @@ export default function manifest(): MetadataRoute.Manifest {
         src: '/android-chrome-192x192.png',
         sizes: '192x192',
         type: 'image/png',
-        purpose: 'maskable',
+        purpose: 'any',
       },
       {
         src: '/android-chrome-512x512.png',
         sizes: '512x512',
         type: 'image/png',
-        purpose: 'maskable',
+        purpose: 'any',
+      },
+    ],
+    // Add screenshots for installability
+    screenshots: [
+      {
+        src: '/screenshots/desktop.png',
+        sizes: '1280x800',
+        type: 'image/png',
+        form_factor: 'wide',
+      },
+      {
+        src: '/screenshots/mobile.png',
+        sizes: '390x844',
+        type: 'image/png',
+        form_factor: 'narrow',
       },
     ],
   };
