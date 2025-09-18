@@ -10,8 +10,8 @@ export default function Experience() {
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gradient mb-6">Professional Experience</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            As a <strong className="text-gray-100">Senior Software Engineer</strong>, leading innovative projects and technical teams across multiple continents. 
-            <a href="#contact" className="text-blue-400 hover:underline">Reach out</a> to discuss Senior Software Engineer collaboration opportunities.
+            As a <strong className="text-gray-100">Software Engineer</strong> and Frontend Developer, working on projects across multiple continents. 
+            <a href="#contact" className="text-blue-400 hover:underline">Reach out</a> to discuss collaboration opportunities.
           </p>
           <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
         </div>

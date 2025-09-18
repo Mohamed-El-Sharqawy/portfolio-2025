@@ -11,8 +11,8 @@ export default function Footer() {
               <span className="text-xl font-bold text-gradient">Moe.</span>
             </div>
             <p className="text-gray-400 leading-relaxed">
-              Senior Software Engineer passionate about creating exceptional digital experiences
-              and leading innovative projects across the globe.
+              Software Engineer and Frontend Developer passionate about creating exceptional digital experiences
+              across the globe.
             </p>
           </div>
 
@@ -21,7 +21,7 @@ export default function Footer() {
             <ul className="space-y-2 text-gray-400">
               <li>Frontend Development</li>
               <li>Backend Architecture</li>
-              <li>Team Leadership</li>
+              <li>Web Development</li>
             </ul>
           </div>
 

@@ -8,8 +8,8 @@ export default function StructuredData() {
         "@type": "Person",
         "@id": "https://devsharqawy.com/#person",
         "name": "Mohamed Ahmed (Moe)",
-        "jobTitle": "Senior Software Engineer",
-        "description": "Senior Software Engineer specializing in React.js, Next.js, and Node.js. Leading innovative projects across UAE, Saudi Arabia, and globally.",
+        "jobTitle": "Software Engineer",
+        "description": "Software Engineer and Frontend Developer specializing in React.js, Next.js, and Node.js. Working on projects across UAE, Saudi Arabia, and globally.",
         "url": "https://devsharqawy.com",
         "email": EMAIL,
         "telephone": PHONE,
@@ -26,12 +26,12 @@ export default function StructuredData() {
           "Frontend Development",
           "Full Stack Development",
           "Software Engineering",
-          "Project Management",
-          "Team Leadership"
+          "Project Implementation",
+          "Web Development"
         ],
         "hasOccupation": {
           "@type": "Occupation",
-          "name": "Senior Software Engineer",
+          "name": "Software Engineer",
           "occupationLocation": {
             "@type": "Place",
             "name": "Global (Remote/On-site)"
@@ -44,8 +44,8 @@ export default function StructuredData() {
             "Astro",
             "JavaScript",
             "TypeScript",
-            "Project Management",
-            "Team Leadership"
+            "Project Implementation",
+            "Web Development"
           ]
         },
         "alumniOf": {
@@ -91,8 +91,8 @@ export default function StructuredData() {
         "@type": "WebSite",
         "@id": "https://devsharqawy.com/#website",
         "url": "https://devsharqawy.com",
-        "name": "Moe - Senior Software Engineer Portfolio",
-        "description": "Senior Software Engineer portfolio showcasing expertise in React.js, Next.js, and Node.js. Leading innovative projects across UAE, Saudi Arabia, and globally.",
+        "name": "Moe - Software Engineer Portfolio",
+        "description": "Software Engineer and Frontend Developer portfolio showcasing expertise in React.js, Next.js, and Node.js. Working on projects across UAE, Saudi Arabia, and globally.",
         "author": {
           "@id": "https://devsharqawy.com/#person"
         },
@@ -107,8 +107,8 @@ export default function StructuredData() {
         "@type": "WebPage",
         "@id": "https://devsharqawy.com/#webpage",
         "url": "https://devsharqawy.com",
-        "name": "Moe - Senior Software Engineer Portfolio | React & Next.js Expert",
-        "description": "Senior Software Engineer portfolio showcasing expertise in React.js, Next.js, and Node.js. Leading innovative projects across UAE, Saudi Arabia, and globally.",
+        "name": "Moe - Software Engineer Portfolio | React & Next.js Expert",
+        "description": "Software Engineer and Frontend Developer portfolio showcasing expertise in React.js, Next.js, and Node.js. Working on projects across UAE, Saudi Arabia, and globally.",
         "isPartOf": {
           "@id": "https://devsharqawy.com/#website"
         },
@@ -156,8 +156,8 @@ export default function StructuredData() {
       {
         "@type": "ProfessionalService",
         "@id": "https://devsharqawy.com/#service",
-        "name": "Senior Software Engineer Services",
-        "description": "Professional software engineering services including frontend development, full-stack solutions, and technical leadership.",
+        "name": "Software Engineering Services",
+        "description": "Professional software engineering services including frontend development and full-stack solutions.",
         "provider": {
           "@id": "https://devsharqawy.com/#person"
         },
@@ -165,10 +165,10 @@ export default function StructuredData() {
         "serviceType": [
           "Frontend Development",
           "Full Stack Development", 
-          "Technical Leadership",
-          "Project Management",
+          "Web Development",
+          "Project Implementation",
           "Software Architecture",
-          "Team Management"
+          "UI/UX Development"
         ],
         "offers": {
           "@type": "Offer",

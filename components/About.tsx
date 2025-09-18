@@ -10,24 +10,24 @@ export default function About() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-gray-100">
-              Senior Software Engineer Passionate About Creating Digital Excellence
+              Software Engineer Passionate About Creating Digital Excellence
             </h3>
             <div className="space-y-4 text-gray-300 leading-relaxed">
               <p>
-                With over 3 years of experience as a <strong className="text-gray-100">Senior Software Engineer</strong>, I&apos;ve evolved from a passionate developer 
-                into a senior engineer who drives innovation across the full stack. My expertise as a Senior Software Engineer spans 
+                With over 3 years of experience as a <strong className="text-gray-100">Software Engineer</strong>, I&apos;ve evolved from a passionate developer 
+                into an engineer who drives innovation across the full stack. My expertise spans 
                 modern frontend frameworks like <a href="#skills" className="text-blue-400 hover:underline">React.js and Next.js</a>, coupled with robust backend technologies 
                 including <a href="#skills" className="text-blue-400 hover:underline">Node.js, Nest.js</a>, and cloud-native solutions.
               </p>
               <p>
-                As a <strong className="text-gray-100">Senior Software Engineer</strong>, I&apos;ve successfully <a href="#experience" className="text-blue-400 hover:underline">led cross-functional teams</a> in delivering mission-critical 
-                applications for government entities across the Middle East, Africa, and North America. My dual expertise as a Senior Software Engineer 
-                in hands-on development and <a href="#experience" className="text-blue-400 hover:underline">strategic project management</a> enables me to bridge the gap between technical 
+                As a <strong className="text-gray-100">Software Engineer</strong>, I&apos;ve successfully worked on delivering mission-critical 
+                applications for government entities across the Middle East, Africa, and North America. My expertise 
+                in hands-on development and <a href="#experience" className="text-blue-400 hover:underline">project implementation</a> enables me to bridge the gap between technical 
                 excellence and business objectives.
               </p>
               <p>
-                I&apos;m passionate about architecting scalable solutions, mentoring development teams, and staying at the 
-                forefront of emerging technologies. Whether leading a frontend engineering team or managing complex 
+                I&apos;m passionate about architecting scalable solutions and staying at the 
+                forefront of emerging technologies. Whether working on frontend development or implementing complex 
                 government projects, I bring a commitment to quality, innovation, and delivery excellence. 
                 <a href="#contact" className="text-blue-400 hover:underline">Let&apos;s connect</a> to discuss how I can contribute to your next project.
               </p>
@@ -44,7 +44,7 @@ export default function About() {
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-purple-400 rounded-full mt-2 mr-3 shrink-0" />
-                  Managed teams of 5-15 developers and designers
+                  Collaborated with diverse teams of developers and designers
                 </li>
                 <li className="flex items-start">
                   <span className="w-2 h-2 bg-blue-400 rounded-full mt-2 mr-3 shrink-0" />

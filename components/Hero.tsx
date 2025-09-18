@@ -18,12 +18,12 @@ export default function Hero() {
         <div className="space-y-8 animate-fade-in">
           <div className="space-y-4">
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight">
-              <span className="block text-gray-100">Senior Software</span>
-              <span className="block text-gradient">Engineer</span>
+              <span className="text-gray-100">Software </span>
+              <span className="text-gradient">Engineer</span>
             </h1>
             <p className="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              I&apos;m Moe, a <strong className="text-gray-100">Senior Software Engineer</strong> and Front-End Development Expert specializing in React.js,
-              Next.js, Svelte, Astro and modern backend technologies. As an experienced Senior Software Engineer, I lead innovative
+              I&apos;m Moe, a Software Engineer and <strong className="text-gray-100">Frontend Developer</strong> specializing in React.js,
+              Next.js, Svelte, Astro and modern backend technologies. I work on
               projects across multiple countries and deliver exceptional
               digital solutions.
             </p>

@@ -14,9 +14,9 @@ export default function Skills() {
             Technical Expertise
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            A comprehensive <strong className="text-gray-100">Senior Software Engineer</strong> skill set spanning <a href="#experience" className="text-blue-400 hover:underline">full-stack development</a>, cloud
-            architecture, and <a href="#experience" className="text-blue-400 hover:underline">project management</a>. 
-            <a href="#about" className="text-blue-400 hover:underline">Learn more</a> about my Senior Software Engineer background.
+            A comprehensive <strong className="text-gray-100">Software Engineer</strong> skill set spanning <a href="#experience" className="text-blue-400 hover:underline">full-stack development</a>, cloud
+            architecture, and <a href="#experience" className="text-blue-400 hover:underline">project implementation</a>. 
+            <a href="#about" className="text-blue-400 hover:underline">Learn more</a> about my background as a Frontend Developer.
           </p>
           <div className="w-20 h-1 bg-linear-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-6" />
         </div>

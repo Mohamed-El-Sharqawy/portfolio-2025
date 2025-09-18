@@ -2,9 +2,9 @@ import { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Moe - Senior Software Engineer Portfolio',
+    name: 'Moe - Software Engineer Portfolio',
     short_name: 'Moe Portfolio',
-    description: 'Senior Software Engineer specializing in React.js, Next.js, and modern web technologies.',
+    description: 'Software Engineer and Frontend Developer specializing in React.js, Next.js, and modern web technologies.',
     start_url: '/',
     display: 'standalone',
     background_color: '#000000',

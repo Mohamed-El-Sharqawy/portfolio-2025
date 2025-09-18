@@ -17,26 +17,26 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: {
-    default: "Moe - Senior Software Engineer | Frontend Development Expert",
-    template: "%s | Moe - Senior Software Engineer"
+    default: "Moe - Software Engineer | Frontend Developer",
+    template: "%s | Moe - Software Engineer"
   },
   description:
-    "Senior Software Engineer with 3+ years experience specializing in React.js, Next.js, and Node.js. Leading innovative frontend and full-stack projects across UAE, Saudi Arabia, and globally.",
-  keywords: "Senior Software Engineer, Frontend Developer, React.js, Next.js, Node.js, Full Stack, UAE, Portfolio",
+    "Software Engineer with 3+ years experience specializing in React.js, Next.js, and Node.js. Working on frontend and full-stack projects across UAE, Saudi Arabia, and globally.",
+  keywords: "Software Engineer, Frontend Developer, React.js, Next.js, Node.js, Full Stack, UAE, Portfolio",
   authors: [{ name: "Moe", url: "https://devsharqawy.com" }],
-  creator: "Moe - Senior Software Engineer",
+  creator: "Moe - Software Engineer",
   robots: "index, follow",
   metadataBase: new URL('https://devsharqawy.com'),
   openGraph: {
     type: "website",
     locale: "en_US",
     url: "https://devsharqawy.com",
-    siteName: "Moe - Senior Software Engineer Portfolio",
+    siteName: "Moe - Software Engineer Portfolio",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Moe - Senior Software Engineer Portfolio",
-    description: "Senior Software Engineer specializing in React.js, Next.js, and modern web technologies.",
+    title: "Moe - Software Engineer Portfolio",
+    description: "Software Engineer and Frontend Developer specializing in React.js, Next.js, and modern web technologies.",
   },
   verification: {
     google: "google-site-verification-code", // Replace with your actual verification code
